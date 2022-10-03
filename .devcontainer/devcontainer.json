@@ -44,7 +44,8 @@
 				"ms-toolsai.jupyter-keymap",
 				"ms-toolsai.jupyter-renderers",
 				"ms-python.vscode-pylance",
-				"ms-python.python"
+				"ms-python.python",
+				"ms-vscode.makefile-tools"
 			]
 		}
 	},
@@ -67,6 +68,7 @@
 	// "forwardPorts": [],
 
 	// "oryx build" will automatically install your dependencies and attempt to build your project
-	//"postCreateCommand": "virtualenv ~/.venv && echo 'source ~/.venv/bin/activate' >> ~/.bashrc && make install",
+	//tweak this if needed
+	//"postCreateCommand" "virtualenv ~/.venv && echo 'source ~/.venv/bin/activate' >> ~/.bashrc && make install",
 	"postCreateCommand": "oryx build -p virtualenv_name=.venv --log-file /tmp/oryx-build.log --manifest-dir /tmp || echo 'Could not auto-build. Skipping.'"
 }

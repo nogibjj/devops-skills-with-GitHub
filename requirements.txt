@@ -1,0 +1,6 @@
+pylint
+click
+pytest
+pytest-cov
+fastapi
+uvicorn
