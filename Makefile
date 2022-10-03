@@ -3,15 +3,17 @@ install:
 		pip install -r requirements.txt
 
 test:
-	echo "Not implemented yet"
-	#python -m pytest -vv test_*.py
+	python -m pytest -vv --cov=hello test_*.py
 
 format:	
-	black *.py awstools/*.py
+	black *.py
 
 lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py 
 
 refactor: format lint
 
-all: install lint test
+deploy:
+	#echo "deploys goes here"
+
+all: install lint test format deploy
