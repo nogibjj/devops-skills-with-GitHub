@@ -15,7 +15,7 @@ class Wiki(BaseModel):
 async def root():
     """Home Page with GET HTTP Method"""
 
-    return {"message": "Hello FastAPI"}
+    return {"message": "Hello FastAPI With Continuous Delivery ECR"}
 
 
 @app.post("/search")
