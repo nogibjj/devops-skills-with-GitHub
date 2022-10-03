@@ -17,3 +17,13 @@ def find_files(directory, pattern, ignore_patterns=[]):
         else:
             yield path
 
+
+def find_pattern_in_file(file, pattern):
+    """Find all occurrences of a pattern in a file and return the line number and line as a list
+    of tuples.
+    """
+    file = pathlib.Path(file)
+    lines = file.read_text().splitlines()
+    return [(i, line) for i, line in enumerate(lines) if pattern in line]
+
+
