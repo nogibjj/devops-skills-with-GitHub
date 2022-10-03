@@ -1,4 +1,5 @@
 [![CI](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/main.yml)
+[![Codespaces Prebuilds](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/codespaces/create_codespaces_prebuilds)
 
 # devops-skills-with-GitHub
 All of the tools for building devops workflows
