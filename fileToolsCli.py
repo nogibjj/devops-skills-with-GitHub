@@ -40,7 +40,7 @@ def find(file, pattern):
     Example:
         ./fileToolsCli.py find ./mylib/filetools.py "import pathlib"
     """
-    #count the number of times the pattern is found
+    # count the number of times the pattern is found
     count = 0
     # loop through the results
     for i, line in find_pattern_in_file(file, pattern):
@@ -49,6 +49,7 @@ def find(file, pattern):
         click.secho(f"{i}: {line}", fg="green")
     # print the number of times the pattern was found using a different click color
     click.secho(f"{count} matches found", fg="yellow")
+
 
 if __name__ == "__main__":
     cli()
