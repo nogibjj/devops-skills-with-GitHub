@@ -8,8 +8,7 @@ def test_find_files():
     pattern = "*.py"
     ignore_patterns = ["__pycache__", "test_"]
     paths = list(find_files(directory, pattern, ignore_patterns))
-    assert len(paths) == 1
-    assert paths[0].name == "hello.py"
+    assert "hello.py" in [path.name for path in paths]
 
 
 def test_find_pattern_in_file():
