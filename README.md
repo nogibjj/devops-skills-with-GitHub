@@ -1,6 +1,8 @@
 [![CI](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/main.yml/badge.svg)](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/main.yml)
 [![Codespaces Prebuilds](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/nogibjj/devops-skills-with-GitHub/actions/workflows/codespaces/create_codespaces_prebuilds)
 
+[![codebuild](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiWU15MDBDcTUxYkR4elUzZkh1ZlVLQWEyaVBCWGxGN3lqci91RWhIa0dhdyt5TmN5SXo1eVVoMTNDT1k4cTIzV3Q1bC9FWk14VHgwRVBGdVdVMEJVcU9BPSIsIml2UGFyYW1ldGVyU3BlYyI6IkYzR09TY0swZnR1dUltSmwiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+
 # devops-skills-with-GitHub
 All of the tools for building devops workflows
 
