@@ -4,7 +4,6 @@ import uvicorn
 from mylib.research import get_wiki_pages, get_wiki_summary, get_wiki_keywords
 
 
-
 app = FastAPI()
 
 
@@ -17,6 +16,7 @@ async def root():
     """Home Page with GET HTTP Method"""
 
     return {"message": "Hello FastAPI"}
+
 
 @app.post("/search")
 async def search(wiki: Wiki):
