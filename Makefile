@@ -3,13 +3,13 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=hello test_*.py
+	python -m pytest -vv --cov=hello --cov=mylib test_*.py
 
 format:	
-	black *.py
+	black *.py mylib/*.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py 
+	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py
 
 refactor: format lint
 

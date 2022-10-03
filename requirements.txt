@@ -5,3 +5,4 @@ pytest-cov==4.0.0
 fastapi==0.85.0
 uvicorn==0.18.3
 black==22.8.0
+ipython==8.5.0

@@ -1,26 +1,5 @@
 #!/usr/bin/env python
-
-# var=1
-# var=var
-
-# build an add function
-def add(a, b):
-    return a + b
-
-
-# build a subtract function
-def subtract(a, b):
-    return a - b
-
-
-# build a multiply function
-def multiply(a, b):
-    return a * b
-
-
-# build a divide function
-def divide(a, b):
-    return a / b
+from mylib.calculate import multiply
 
 
 if __name__ == "__main__":
